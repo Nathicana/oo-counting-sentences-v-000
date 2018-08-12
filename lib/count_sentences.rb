@@ -24,6 +24,6 @@ end
   end
 
   def count_sentences
-   self.split(/\.|\?|!/).count
+   self.squeeze('.!?').count('.!?')
   end
 end
