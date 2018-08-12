@@ -9,7 +9,9 @@ class String
 end
 
   def question?
-
+    if self.question?
+      return true 
+    end
   end
 
   def exclamation?
