@@ -10,7 +10,7 @@ end
 
   def question?
     if self.question?
-      return true 
+      return true
     end
   end
 
